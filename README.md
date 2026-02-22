@@ -58,20 +58,23 @@ El Container:
 
 # Seccion de botones numericos
 Se crea una columna:
-`seccion_numeros = ft.Column(...)`
+
+`seccion_numeros = ft.Column(...)
+`
 
 Dentro de la columna hay tres Row (filas).
 Cada fila contiene tres botones hechos con ft.Container.
 
 Cada botón tiene:
--expand=1 -> ocupa el mismo espacio que los demás.
--height=50 → altura fija.
--bgcolor → color rosa.
--border → borde blanco.
--content=ft.Text("n") → número visible.
--data="n" → valor interno que se envía al hacer clic.
--on_click=boton_click → función que se ejecuta al presionar.
+- expand=1 -> ocupa el mismo espacio que los demás.
+- height=50 → altura fija.
+- bgcolor → color rosa.
+- border → borde blanco.
+- content=ft.Text("n") → número visible.
+- data="n" → valor interno que se envía al hacer clic.
+- on_click=boton_click → función que se ejecuta al presionar.
 El parámetro spacing=10 agrega espacio entre filas.
+---
 
 # Seccion de operaciones
 `seccion_operaciones = ft.Row(...)
