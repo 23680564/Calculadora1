@@ -14,7 +14,7 @@ La función main es el punto central del programa.
 El parámetro page representa la ventana principal de la aplicación.
 ---
 
-## Configuracion de la ventana
+# Configuracion de la ventana
 `page.title = "Calculadora Estática - TAP"
 page.window_width = 280
 page.window_height = 450
@@ -23,10 +23,10 @@ page.padding = 15
 `
 Aquí se configuran las propiedades de la ventana:
 
--Se define el título.
--Se establece el ancho y alto.
--Se evita que el usuario pueda cambiar el tamaño.
--Se agrega un espacio interno (padding).
+- Se define el título.
+- Se establece el ancho y alto.
+- Se evita que el usuario pueda cambiar el tamaño.
+- Se agrega un espacio interno (padding).
 ---
 
 ## Seccin de Display
@@ -39,21 +39,21 @@ Empieza mostrando "0".
 Luego se define la función que se ejecuta cuando se presiona un botón:
 `def boton_click(e):
 `
-(e) es el evento que contiene información del botón presionado.
-Si el display tiene "0", se reemplaza por el número presionado.
-Si no, se agrega el nuevo número al final.
-page.update() actualiza la interfaz.
+ (e) es el evento que contiene información del botón presionado.
+ Si el display tiene "0", se reemplaza por el número presionado.
+ Si no, se agrega el nuevo número al final.
+ page.update() actualiza la interfaz.
 
 Después se crea el contenedor del display:
 ` seccion_display = ft.Container(...)
 `
 El Container:
 
--Contiene el texto.
--Tiene fondo gris claro.
--Altura fija.
--Borde rojo.
--Centra el contenido.
+- Contiene el texto.
+- Tiene fondo gris claro.
+- Altura fija.
+- Borde rojo.
+- Centra el contenido.
 ---
 
 # Seccion de botones numericos
