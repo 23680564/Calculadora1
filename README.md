@@ -29,7 +29,7 @@ Aquí se configuran las propiedades de la ventana:
 - Se agrega un espacio interno (padding).
 ---
 
-## Seccin de Display
+## Seccion de Display
 `texto_display = ft.Text("0", size=20)
 `
 - Se crea un objeto de texto que mostrará los números.
