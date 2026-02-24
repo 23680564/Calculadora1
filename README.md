@@ -104,6 +104,7 @@ El display
 # Ejecucion del programa
 `if __name__ == "__main__":
     ft.app(target=main)
+    `
 
     <img width="1266" height="647" alt="image" src="https://github.com/user-attachments/assets/aeefbc3c-5df2-46b1-9d27-26e2555b14bc" />
 
