@@ -116,7 +116,7 @@ El display
 
   # Codigo completo
   
-  `import flet as ft
+  ``` import flet as ft
 
 def main(page: ft.Page):
     page.title = "Calculadora Estática - TAP"
@@ -296,7 +296,7 @@ def main(page: ft.Page):
 
 if __name__ == "__main__":
     ft.app(target=main)
-    `
+    ```
 
   # Como ejecutarlo desde Flet
 
