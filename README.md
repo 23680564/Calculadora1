@@ -114,6 +114,8 @@ El display
 - Se llama a la función main.
 - Se abre la ventana.
 
+  ---
+
   # Codigo completo
   
   ```
