@@ -84,7 +84,7 @@ El parámetro spacing=10 agrega espacio entre filas.
 Se crea una fila con tres contenedores verdes.
 Actualmente no tienen funcionalidad, solo diseño visual.
 
-# Contruccion final de la interfaz
+# Construccion final de la interfaz
 `page.add(
     ft.Column(
         controls=[ ... ],
@@ -308,22 +308,32 @@ if __name__ == "__main__":
   -Primero dirigirse a la carpeta donde estan guardados los documentos
   
   <img width="263" height="24" alt="image" src="https://github.com/user-attachments/assets/cc173f0c-b9ad-4b37-a13e-a30e3626a8fe" />
+
+  ---
   
   -Despues seleccionar el archivo
   
   <img width="262" height="24" alt="image" src="https://github.com/user-attachments/assets/8b8f2af3-9daa-4c77-8b09-dce1f67d7d28" />
+
+  ---
   
   -Dar click derecho en el archivo
   
   <img width="287" height="56" alt="image" src="https://github.com/user-attachments/assets/0666bba1-a34d-459d-b14e-72c06b583a88" />
+
+  ---
   
   -Seleccionar en **Open git Bash Here** y se abrira el entorno virtual de Git Bash
   
   <img width="420" height="187" alt="image" src="https://github.com/user-attachments/assets/654aeb75-45ab-45cc-b199-0d608d6ef550" />
+
+  --
   
   -Una vez abierto el entorno virtual se pondra el comando "Python elnombredelarchivo.py "py" la extension de python para hacer referencia a el archivo
   
   <img width="354" height="121" alt="image" src="https://github.com/user-attachments/assets/055c9158-b1c5-46af-a7cc-fd8fb26a54b2" />
+
+  ---
   
   -Y asi es como se realiza la ejecucion del programa o el proyecto
   
