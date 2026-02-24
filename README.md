@@ -32,8 +32,8 @@ Aquí se configuran las propiedades de la ventana:
 ## Seccin de Display
 `texto_display = ft.Text("0", size=20)
 `
-Se crea un objeto de texto que mostrará los números.
-Empieza mostrando "0".
+- Se crea un objeto de texto que mostrará los números.
+ Empieza mostrando "0".
 ---
 
 Luego se define la función que se ejecuta cuando se presiona un botón:
