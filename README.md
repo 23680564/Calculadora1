@@ -116,7 +116,8 @@ El display
 
   # Codigo completo
   
-  ``` import flet as ft
+  ```
+ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Calculadora Estática - TAP"
