@@ -119,14 +119,16 @@ El display
   ---
 
   # Codigo completo
-  ``` import flet as ft
+  
+  ```
+  import flet as ft
 
-def main(page: ft.Page):
-    page.title = "Calculadora Estática - TAP"
-    page.window_width = 280
-    page.window_height = 450
-    page.window_resizable = False
-    page.padding = 15
+  def main(page: ft.Page):
+      page.title = "Calculadora Estática - TAP"
+      page.window_width = 280
+      page.window_height = 450
+      page.window_resizable = False
+      page.padding = 15
 
     # --- 1. SECCIÓN DISPLAY (ROJO) ---
     texto_display = ft.Text("0", size=20)
