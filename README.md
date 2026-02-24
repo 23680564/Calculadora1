@@ -3,15 +3,18 @@
 Este programa crea una interfaz gráfica sencilla usando la librería Flet en Python. La aplicación muestra un display y botones numéricos organizados en filas y columnas.
 
 # Importacion de librerias
+
 `import flet as ft
 `
 Se importa la librería Flet y se le asigna el alias ft para escribir menos código.
 
 # Funcion principal 
+
 `def main(page: ft.Page):
 `
-La función main es el punto central del programa.
-El parámetro page representa la ventana principal de la aplicación.
+
+- La función main es el punto central del programa.
+- El parámetro page representa la ventana principal de la aplicación.
 ---
 
 # Configuracion de la ventana
@@ -37,6 +40,7 @@ Aquí se configuran las propiedades de la ventana:
 ---
 
 Luego se define la función que se ejecuta cuando se presiona un botón:
+
 `def boton_click(e):
 `
 - (e) es el evento que contiene información del botón presionado.
@@ -327,7 +331,7 @@ if __name__ == "__main__":
   
   <img width="420" height="187" alt="image" src="https://github.com/user-attachments/assets/654aeb75-45ab-45cc-b199-0d608d6ef550" />
 
-  --
+  ---
   
   -Una vez abierto el entorno virtual se pondra el comando "Python elnombredelarchivo.py "py" la extension de python para hacer referencia a el archivo
   
