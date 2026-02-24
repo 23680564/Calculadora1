@@ -40,7 +40,9 @@ Luego se define la función que se ejecuta cuando se presiona un botón:
 `def boton_click(e):
 `
 - (e) es el evento que contiene información del botón presionado.
+  
 - Si el display tiene "0", se reemplaza por el número presionado.
+  
 -Si no, se agrega el nuevo número al final.
  page.update() actualiza la interfaz.
 
