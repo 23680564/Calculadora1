@@ -298,10 +298,7 @@ def main(page: ft.Page):
 if __name__ == "__main__":
     ft.app(target=main)
     ```
-
-    
-    ---
-
+---
   # Como ejecutarlo desde Flet
 
   -Primero dirigirse a la carpeta donde estan guardados los documentos
