@@ -115,6 +115,7 @@ El display
 - Se abre la ventana.
 
   # Codigo completo
+  
   `import flet as ft
 
 def main(page: ft.Page):
